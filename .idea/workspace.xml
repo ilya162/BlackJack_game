@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a155990c-4750-48c1-a6c2-26446b713710" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a155990c-4750-48c1-a6c2-26446b713710" name="Changes" comment="Fix encoding">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BlackJack/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/black_jack/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BlackJack/Coloda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/black_jack/Coloda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BlackJack/Dealer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/black_jack/Dealer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BlackJack/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/black_jack/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BlackJack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/black_jack/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BlackJack/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/black_jack/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/black_jack/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/black_jack/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/black_jack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/black_jack/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +62,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.black_jack.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -82,8 +75,17 @@
       <option name="presentableId" value="Default" />
       <updated>1698504701127</updated>
       <workItem from="1698504702782" duration="1207000" />
-      <workItem from="1698742887989" duration="18995000" />
+      <workItem from="1698742887989" duration="20269000" />
+      <workItem from="1698783310386" duration="963000" />
     </task>
+    <task id="LOCAL-00001" summary="Fix encoding">
+      <created>1698769003120</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698769003120</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,73 +102,17 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix encoding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix encoding" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/black_jack/Game.java</url>
-          <line>123</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/black_jack/Game.java</url>
-          <line>124</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/black_jack/Game.java</url>
-          <line>125</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/black_jack/Game.java</url>
-          <line>126</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/black_jack/Game.java</url>
-          <line>127</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/black_jack/Game.java</url>
-          <line>128</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/black_jack/Game.java</url>
-          <line>134</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/black_jack/Game.java</url>
-          <line>137</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/black_jack/Game.java</url>
-          <line>145</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/black_jack/Game.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/black_jack/Game.java</url>
-          <line>79</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/black_jack/Game.java</url>
-          <line>92</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/black_jack/Game.java</url>
-          <line>103</line>
-          <option name="timeStamp" value="15" />
+          <line>104</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -12,7 +12,7 @@ public class Main {
 
         int i = 0;
         boolean b = true;
-        while (i < 5 && b) {
+        while (i < 1 && b) {
             System.out.println("Add a Player? 1 - YES, 2 - NO");
             Scanner scanner = new Scanner(System.in);
             String s = scanner.nextLine();
@@ -26,11 +26,12 @@ public class Main {
                 game.setPlayers(player);
                 i++;
             } else {
-                if (i != 1) {
+                if (i == 0) {
                     System.out.println("Enter 1 or 2 to select");
                     System.out.println("At least one player is needed");
+                } else {
+                    b = false;
                 }
-                b = false;
             }
         }
 

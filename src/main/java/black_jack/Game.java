@@ -82,6 +82,7 @@ public class Game {
                         System.out.println("Player " + player.getName() + " won");
                         System.out.println("Dealer's cards:");
                         dealer.printCard();
+                        System.out.println("Dealer's points: " + dealer.getValue());
 
                     }
                 }
@@ -101,7 +102,7 @@ public class Game {
         }
         for (Player player : players) {
             if (player != null) {
-                if (player.getValue() > 21 && dealer.getValue() > 21) {
+                if (player.getValue() > 21) {
                     if (player.getValue() > dealer.getValue()) {
                         System.out.println("The dealer " + dealer.getName() + " won");
                         dealer.printCard();
@@ -110,6 +111,7 @@ public class Game {
                         System.out.println("Player " + player.getName() + " won");
                         System.out.println("Dealer's cards:");
                         dealer.printCard();
+                        System.out.println("Dealer's points: " + dealer.getValue());
 
                     }
                 }
