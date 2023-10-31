@@ -1,17 +1,17 @@
-package BlackJack;
+package black_jack;
 
 import java.util.Arrays;
 
 public class Dealer {
     private String name;
-    private Cart[] carts = new Cart[10];
+    private Card[] cards = new Card[10];
 
     public Dealer() {
     }
 
-    public Dealer(String name, Cart[] carts) {
+    public Dealer(String name, Card[] cards) {
         this.name = name;
-        this.carts = carts;
+        this.cards = cards;
     }
 
     public String getName() {
@@ -22,19 +22,19 @@ public class Dealer {
         this.name = name;
     }
 
-    public Cart[] getCarts() {
-        return carts;
+    public Card[] getCards() {
+        return cards;
     }
 
-    public void setCarts(Cart[] carts) {
-        this.carts = carts;
+    public void setCards(Card[] carts) {
+        this.cards = cards;
     }
 
 
-    public void setCarts(Cart cart) {
-        for (int i = 0; i < this.carts.length; i++) {
-            if (this.carts[i] == null) {
-                this.carts[i] = cart;
+    public void setCards(Card card) {
+        for (int i = 0; i < this.cards.length; i++) {
+            if (this.cards[i] == null) {
+                this.cards[i] = card;
                 return;
             }
         }
@@ -48,13 +48,13 @@ public class Dealer {
         Dealer deller = (Dealer) o;
 
         if (name != null ? !name.equals(deller.name) : deller.name != null) return false;
-        return Arrays.equals(carts, deller.carts);
+        return Arrays.equals(cards, deller.cards);
     }
 
     @Override
     public int hashCode() {
         int result = name != null ? name.hashCode() : 0;
-        result = 31 * result + Arrays.hashCode(carts);
+        result = 31 * result + Arrays.hashCode(cards);
         return result;
     }
 
@@ -62,22 +62,22 @@ public class Dealer {
     public String toString() {
         return "Dealer{" +
                 "name='" + name + '\'' +
-                ", carts=" + Arrays.toString(carts) +
+                ", carts=" + Arrays.toString(cards) +
                 '}';
     }
 
-    public void printCart() {
-        for (Cart cart : carts) {
-            if (cart != null)
-                System.out.println(cart);
+    public void printCard() {
+        for (Card card : cards) {
+            if (card != null)
+                System.out.println(card);
         }
     }
 
     public int getValue() {
         int res = 0;
-        for (Cart cart : carts) {
-            if (cart != null) {
-                res += cart.getValue();
+        for (Card card : cards) {
+            if (card != null) {
+                res += card.getValue();
             }
         }
         return res;

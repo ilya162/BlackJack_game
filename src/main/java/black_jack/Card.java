@@ -1,13 +1,13 @@
-package BlackJack;
+package black_jack;
 
-public class Cart {
+public class Card {
     private int value;
     public String name;
 
-    public Cart() {
+    public Card() {
     }
 
-    public Cart(int value, String name) {
+    public Card(int value, String name) {
         this.value = value;
         this.name = name;
     }
@@ -33,10 +33,10 @@ public class Cart {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Cart cart = (Cart) o;
+        Card card = (Card) o;
 
-        if (value != cart.value) return false;
-        return name != null ? name.equals(cart.name) : cart.name == null;
+        if (value != card.value) return false;
+        return name != null ? name.equals(card.name) : card.name == null;
     }
 
     @Override
@@ -48,7 +48,7 @@ public class Cart {
 
     @Override
     public String toString() {
-        return "Cart{" +
+        return "Card{" +
                 "value=" + value +
                 ", name='" + name + '\'' +
                 '}';
